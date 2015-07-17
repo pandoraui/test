@@ -17,4 +17,7 @@ $(function() {
   addToHome({debug: true});
 
   console.log('Hello World. This is Amaze UI Starter Kit.');
+
+
+
 });
