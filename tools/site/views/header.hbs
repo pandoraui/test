@@ -1,0 +1,47 @@
+<!--[if lte IE 9 ]>
+<div class="am-alert am-alert-danger ie-warning" data-am-alert>
+  <button type="button" class="am-close">&times;</button>
+  <div class="am-container">365 安全卫士提醒：你的浏览器太古董了，妹子无爱，<a
+  href="http://browsehappy.com/" target="_blank">速速点击换一个</a>！
+  </div>
+</div>
+<![endif]-->
+{{#unless amuiIndex}}
+  <header id="amz-header">
+    <div class="amz-container am-cf">
+      <h1>
+        <a href="/">Amaze UI</a>
+        <span class="am-badge am-badge-danger">2.4</span>
+      </h1>
+      <button class="am-btn am-btn-primary am-show-sm-only" data-am-collapse="{target: '.amz-header-nav'}">
+        <span class="am-sr-only">导航切换</span>
+        <span class="am-icon-bars"></span>
+      </button>
+      <nav>
+        <ul class="amz-header-nav am-collapse">
+          <li class="am-active"><a href="/getting-started">开始使用</a></li>
+          <li><a href="/css">CSS</a></li>
+          <li><a href="/javascript">JS 插件</a></li>
+          <li><a href="/widgets">Web 组件</a></li>
+          <li class="nav-react">
+            <a href="/react">React
+            <span class="am-badge am-badge-warning">New</span>
+            </a>
+          </li>
+          <li><a href="http://blog.amazeui.org/" target="_blank">博客</a></li>
+          <li><a href="http://www.microsofttranslator.com/bv.aspx?from=zh-CHS&to=en&a=http%3A%2F%2Famazeui.org%2F" title="Translate page" target="_blank" id="bing-translator"><span class="am-icon-language"></span></a></li>
+          <li class="amz-cse">
+            <form action="http://zhannei.baidu.com/cse/search" method="get" target="_blank" class="cse-form">
+              <input type="hidden" name="s" value="13988471460650623274">
+              <input type="hidden" name="entry" value="1">
+              <input type="text" required name="q" placeholder="搜索" autocomplete="off">
+              <button>
+                <span class="am-icon-search"></span>
+              </button>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+{{/unless}}

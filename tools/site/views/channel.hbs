@@ -1,0 +1,89 @@
+<!doctype html>
+<!--[if lte IE 7 ]>
+<html class="no-js ie lte7 lte8 lte9 ">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie ie8 lte8 lte9 ">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie ie9 lte9 ">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]>
+<!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Amaze UI 是一个移动优先的跨屏前端框架。">
+  <meta name="keywords" content="HTML, HTML5, CSS, CSS3, JS, JavaScript, framework, Amaze UI, front-end, frontend, web development, 前端框架, 开源, meizi, meizi UI, 妹子UI, Web Components">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>{{#if title}}{{title}} | {{/if}}Amaze UI</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="alternate icon" type="image/png" href="{{staticDomain}}/assets/{{version}}/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="{{staticDomain}}/assets/{{version}}/i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" href="{{staticDomain}}/assets/{{version}}/i/startup-640x1096.png">
+  <link rel="stylesheet" href="{{staticDomain}}/assets/{{version}}/css/amazeui.min.css?v={{publishVersion}}">
+  <link rel="stylesheet" href="{{staticDomain}}/assets/{{version}}/css/amaze.min.css?v={{publishVersion}}">
+  <!--[if (gte IE 9)|!(IE)]>
+  <!-->
+  <script src="{{staticDomain}}/assets/{{version}}/js/jquery.min.js"></script>
+  <!--<![endif]-->
+  <!--[if lt IE 9]>
+  <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://cdn.amazeui.org/modernizr/2.8.3/modernizr.js"></script>
+  <script src="{{staticDomain}}/assets/{{version}}/js/amazeui.ie8polyfill.min.js"></script>
+  <![endif]-->
+  <script src="{{staticDomain}}/assets/{{version}}/js/amazeui.min.js?v={{publishVersion}}"></script>
+  <link rel="canonical" href="http://amazeui.org?_ver={{version}}"/>
+</head>
+<body class="" data-amui="{{version}}">
+
+  <div class="amz-banner">
+    <div class="amz-container" data-am-scrollspy="{animation: 'scale-up', repeat: false}">
+      <h1>{{{channelTitle}}}</h1>
+      <p>{{{channelDesc}}}</p>
+      {{#if buttons}}
+        <p>
+          <a class="github-button" href="https://github.com/{{buttons}}">Star</a>
+          <a class="github-button" href="https://github.com/{{buttons}}">Fork</a>
+          <a class="github-button" href="https://github.com/{{buttons}}/archive/master.zip">Download</a>
+        </p>
+      {{/if}}
+    </div>
+  </div>
+  <section class="" id="amz-main" data-tag="getting-started">
+    <div class="am-g am-g-fixed">
+      <div class="col-md-3 am-u-md-3">
+        {{{sidebar}}}
+      </div>
+      <div class="col-md-9 am-u-md-9 doc-content">
+        <!-- <div class="doc-toc">自动生成的目录</div> -->
+        {{{body}}}
+
+        <!-- 评论 -->
+        <div class="ds-thread" id="ds-thread" data-thread-key="cfd612c05209983f24889067f1d52ec5" data-title="开始使用 | Amaze UI"></div>
+      </div>
+    </div>
+  </section>
+  <a href="#amz-offcanvas" class="am-icon-btn am-icon-bars am-show-sm-only amz-sidebar-toggle" data-am-offcanvas><span class="am-sr-only">侧栏导航</span></a>
+  {{{footer}}}
+  <div class="amz-toolbar" id="amz-toolbar">
+    <a href="#top" title="回到顶部" class="am-icon-btn am-icon-arrow-up" id="amz-go-top"></a>
+    <a href="/getting-started/faq" title="常见问题" class="am-icon-faq am-icon-btn am-icon-question-circle"></a>
+  </div>
+  <!--[if (gte IE 9)|!(IE)]>
+  <!-->
+  <script src="/js/docs.widgets.helper.js"></script>
+  <script src="{{staticDomain}}/assets/{{version}}/js/ZeroClipboard.min.js"></script>
+  <!--<![endif]-->
+  <script src="{{staticDomain}}/assets/{{version}}/js/handlebars.min.js"></script>
+  <script src="{{staticDomain}}/assets/{{version}}/js/main.min.js"></script>
+
+</body>
+</html>
+<!-- Cached page generated on Mon Jul 06 2015 03:18:00 GMT+0000 (UTC) -->
